@@ -1,6 +1,7 @@
 {
   "name": "@vshyrokov/ui",
-  "version": "3.0.0",
+  "version": "0.0.0",
+  "private": false,
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
@@ -17,7 +18,9 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.1.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "@vshyrokov/header": "3.0.0",
+    "@vshyrokov/footer": "3.0.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
@@ -25,6 +28,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@vshyrokov"
   },
-  "repository": "https://github.com/vshyrokov/lerna-ui-check",
-  "gitHead": "ff907f8a20e4f15f71967618ea02b9a57f5453b0"
+  "repository": "https://github.com/vshyrokov/lerna-ui-check"
 }

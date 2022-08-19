@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "private": false,
+  "private": true,
   "version": "1.0.0",
   "engines": {
     "node": ">12"
@@ -16,12 +16,9 @@
     "rollup": "^2.78.1",
     "rollup-plugin-typescript2": "^0.32.1"
   },
-  "dependencies": {
-    "@vshyrokov/footer": "^5.4.3"
-  },
   "workspaces": [
-    "packages/*",
-    "packages/*/*"
+    "packages/ui",
+    "packages/elements/*"
   ],
   "packageManager": "yarn@3.2.2",
   "publishConfig": {
