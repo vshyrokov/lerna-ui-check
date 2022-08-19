@@ -6,6 +6,7 @@
     "nx": "14.2.2"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/*/*"
   ]
 }
