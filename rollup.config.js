@@ -2,8 +2,8 @@ import typescript from "rollup-plugin-typescript2";
 
 export default {
   input: [
-    "packages/elements/footer/src/index.tsx",
-    "packages/elements/header/src/index.tsx",
+    "packages/root/footer/src/index.tsx",
+    "packages/root/header/src/index.tsx",
   ],
   output: [
     {
