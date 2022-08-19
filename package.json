@@ -1,12 +1,28 @@
 {
   "name": "root",
   "private": true,
+  "engines": {
+    "node": ">12",
+    "yarn": ">=2"
+  },
+  "scripts": {
+    "build": "yarn clean && yarn rollup -c && lerna run build --stream",
+    "clean": "rimraf dist"
+  },
   "devDependencies": {
     "lerna": "^5.4.3",
-    "nx": "14.2.2"
+    "nx": "14.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.78.1",
+    "rollup-plugin-typescript2": "^0.32.1"
   },
   "workspaces": [
     "packages/*",
     "packages/*/*"
-  ]
+  ],
+  "packageManager": "yarn@3.2.2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@vshyrokov"
+  },
+  "repository": "https://github.com/vshyrokov/lerna-ui-check"
 }
