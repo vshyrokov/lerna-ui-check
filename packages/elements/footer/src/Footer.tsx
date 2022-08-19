@@ -2,8 +2,10 @@ import React from 'react';
 
 export function Footer() {
     return (
-        <footer>
-            Footer
+        <footer style={{
+            color: 'red'
+        }}>
+            Footer 322
         </footer>
     );
 }
