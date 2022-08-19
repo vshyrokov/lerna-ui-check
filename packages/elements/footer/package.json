@@ -1,6 +1,6 @@
 {
   "name": "footer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
@@ -26,5 +26,5 @@
     "registry": "https://npm.pkg.github.com/@vshyrokov"
   },
   "repository": "https://github.com/vshyrokov/lerna-ui-check",
-  "gitHead": "c6c6be8e8b34123107ecb935881969a0745c932b"
+  "gitHead": "d07e7580f013411a40fd528d8bbfa8cec06aae17"
 }
