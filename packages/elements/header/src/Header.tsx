@@ -3,9 +3,9 @@ import React from 'react';
 export function Header() {
     return (
         <header style={{
-            color: 'yellow'
+            color: 'red'
         }}>
-            Lerna is the original monorepo tool!11111
+            Lerna is the original monorepo tool!wewfwefwef
         </header>
     );
 }

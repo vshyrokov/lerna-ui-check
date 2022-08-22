@@ -1,6 +1,6 @@
 {
   "name": "@vshyrokov/ui",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",
     "@vshyrokov/footer": "^4.3.0",
-    "@vshyrokov/header": "^4.4.0",
+    "@vshyrokov/header": "^4.5.0",
     "jest": "^27.4.3",
     "react": "18.1.0",
     "react-dom": "18.1.0",
@@ -29,5 +29,5 @@
     "registry": "https://npm.pkg.github.com/@vshyrokov"
   },
   "repository": "https://github.com/vshyrokov/lerna-ui-check",
-  "gitHead": "a30f7ac5d4cd6dfc1da42fe7ab163d63088bed0a"
+  "gitHead": "16dd69977fe6ee483e6e64094b4f55207ad580e8"
 }
