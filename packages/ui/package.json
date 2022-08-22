@@ -1,6 +1,6 @@
 {
-  "name": "@toptal/growth-ui",
-  "version": "4.6.0",
+  "name": "@vshyrokov/ui",
+  "version": "4.7.0",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "@testing-library/react": "13.3.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",
-    "@vshyrokov/footer": "^4.3.0",
-    "@vshyrokov/header": "^4.6.0",
+    "@vshyrokov/footer": "^4.7.0",
+    "@vshyrokov/header": "^4.7.0",
     "jest": "^27.4.3",
     "react": "18.1.0",
     "react-dom": "18.1.0",
@@ -30,5 +30,5 @@
   },
   "sideEffects": false,
   "repository": "https://github.com/vshyrokov/lerna-ui-check",
-  "gitHead": "16dd69977fe6ee483e6e64094b4f55207ad580e8"
+  "gitHead": "c8a4af6a4685b50b42c8e8c694c2eea2218f9deb"
 }

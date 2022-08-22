@@ -1,6 +1,6 @@
 {
   "name": "@vshyrokov/header",
-  "version": "4.6.0",
+  "version": "4.7.0",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
@@ -27,5 +27,5 @@
   },
   "sideEffects": false,
   "repository": "https://github.com/vshyrokov/lerna-ui-check",
-  "gitHead": "16dd69977fe6ee483e6e64094b4f55207ad580e8"
+  "gitHead": "c8a4af6a4685b50b42c8e8c694c2eea2218f9deb"
 }
