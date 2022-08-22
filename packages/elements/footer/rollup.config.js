@@ -6,7 +6,7 @@ export default {
         {
             dir: "dist",
             entryFileNames: "[name].js",
-            format: "cjs",
+            format: "es",
             exports: "named"
         }
     ],

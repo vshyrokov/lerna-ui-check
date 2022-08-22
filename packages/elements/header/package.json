@@ -25,6 +25,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@vshyrokov"
   },
+  "sideEffects": false,
   "repository": "https://github.com/vshyrokov/lerna-ui-check",
   "gitHead": "16dd69977fe6ee483e6e64094b4f55207ad580e8"
 }
